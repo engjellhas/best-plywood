@@ -4,7 +4,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 
 // <video controls className="w-4/12">
-//               <source src="/images/bestplywood.mp4" type="video/mp4" />
+//               <source src="images/bestplywood.mp4" type="video/mp4" />
 //             </video>
 
 // Want to know more about Best Plywood or request a quote?
@@ -64,7 +64,7 @@ export default function Home() {
               <h1 className="text-6xl font-semibold pt-5 pb-5">Plywood</h1>
             </div>
             <Image
-              src="/images/marine1.png"
+              src="images/marine1.png"
               alt="bestplywood"
               width="500"
               height="200"
@@ -96,8 +96,8 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full pt-5">
-              <video controls poster="/images/videointro.jpg">
-                <source src="/images/bestplywood.mp4" type="video/mp4" />
+              <video controls poster="images/videointro.jpg">
+                <source src="images/bestplywood.mp4" type="video/mp4" />
                 {/* <source src="/path/to/video.webm" type="video/webm" /> */}
                 Your browser does not support the video tag.
               </video>
@@ -109,7 +109,7 @@ export default function Home() {
             className="min-w-[100%] md:min-w-[50%] bg-[#4cca75] mt-5"
             style={{ minHeight: "350px", position: "relative" }}
           >
-            <Image src="/images/okume.gif" alt="bestplywood" layout="fill" />
+            <Image src="images/okume.gif" alt="bestplywood" layout="fill" />
           </div>
           <div className="min-w-[50%] md:pl-5 pt-10 md:text-right	flex flex-col	md:items-end md:flex-end p-5">
             <h1 className="text-3xl   text-[#4cca75] font-bold">
@@ -140,7 +140,7 @@ export default function Home() {
             <div className="max-w-5xl flex gap-5 md:gap-20 pt-20 items-center ">
               <div>
                 <Image
-                  src={"/images/ce.png"}
+                  src={"images/ce.png"}
                   alt="ce"
                   width={150}
                   height={20}
@@ -148,7 +148,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  src={"/images/carb-phase-2-plywood.webp"}
+                  src={"images/carb-phase-2-plywood.webp"}
                   alt="ce"
                   width={200}
                   height={40}
@@ -156,7 +156,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  src={"/images/china-fsc-plywood-1.webp"}
+                  src={"images/china-fsc-plywood-1.webp"}
                   alt="ce"
                   width={200}
                   height={40}
@@ -164,7 +164,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  src={"/images/iso-logo.gif"}
+                  src={"images/iso-logo.gif"}
                   alt="ce"
                   width={120}
                   height={50}
@@ -219,7 +219,7 @@ export default function Home() {
                 </div>
                 <div className="pt-5 flex justify-center">
                   <Image
-                    src="/images/okume-pal.jpg"
+                    src="images/okume-pal.jpg"
                     alt="Plywood"
                     width={400}
                     height={200}
@@ -320,7 +320,7 @@ export default function Home() {
             </div>
             <div className="pt-10 mb-5 flex gap-5">
               <Image
-                src="/images/mail.png"
+                src="images/mail.png"
                 alt="Plywood"
                 width={30}
                 height={30}
@@ -329,7 +329,7 @@ export default function Home() {
             </div>
             <div className="flex gap-5">
               <Image
-                src="/images/phone.png"
+                src="images/phone.png"
                 alt="Plywood"
                 width={30}
                 height={30}
